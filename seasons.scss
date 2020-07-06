@@ -1,0 +1,45 @@
+.season {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body--spring {
+    background-color: lavender;
+    h1 {
+        color: blue;
+    }
+    .season {
+        background-image: url(/img/spring.jpg);
+    }
+}
+
+.body--summer {
+    background-color: yellow;
+    h1 {
+        color: black;
+    }
+    .season {
+        background-image: url(/img/summer.jpg);
+    }
+}
+
+.body--autumn {
+    background-color: orange;
+    h1 {
+        color: black;
+    }
+    .season {
+        background-image: url(/img/autumn.jpg);
+    }
+}
+
+.body--winter {
+    background-color: black;
+    h1 {
+        color: white;
+    }
+    .season {
+        background-image: url(/img/winter.jpg);
+    }
+}
